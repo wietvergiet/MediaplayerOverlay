@@ -1,0 +1,10 @@
+C:\Users\wietvergiet\source\repos\overlayv2\MediaplayerOverlay\bin\x64\Release\MediaplayerOverlay.exe.config
+C:\Users\wietvergiet\source\repos\overlayv2\MediaplayerOverlay\bin\x64\Release\MediaplayerOverlay.exe
+C:\Users\wietvergiet\source\repos\overlayv2\MediaplayerOverlay\bin\x64\Release\MediaplayerOverlay.pdb
+C:\Users\wietvergiet\source\repos\overlayv2\MediaplayerOverlay\obj\x64\Release\MediaplayerOverlay.csprojAssemblyReference.cache
+C:\Users\wietvergiet\source\repos\overlayv2\MediaplayerOverlay\obj\x64\Release\MediaplayerOverlay.MediaplayerOverlay.resources
+C:\Users\wietvergiet\source\repos\overlayv2\MediaplayerOverlay\obj\x64\Release\MediaplayerOverlay.Properties.Resources.resources
+C:\Users\wietvergiet\source\repos\overlayv2\MediaplayerOverlay\obj\x64\Release\MediaplayerOverlay.csproj.GenerateResource.cache
+C:\Users\wietvergiet\source\repos\overlayv2\MediaplayerOverlay\obj\x64\Release\MediaplayerOverlay.csproj.CoreCompileInputs.cache
+C:\Users\wietvergiet\source\repos\overlayv2\MediaplayerOverlay\obj\x64\Release\MediaplayerOverlay.exe
+C:\Users\wietvergiet\source\repos\overlayv2\MediaplayerOverlay\obj\x64\Release\MediaplayerOverlay.pdb

@@ -1,0 +1,10 @@
+C:\Users\wietvergiet\source\repos\overlayv2\overlayv2\obj\x64\Release\overlayv2.overlay.resources
+C:\Users\wietvergiet\source\repos\overlayv2\overlayv2\obj\x64\Release\overlayv2.csproj.GenerateResource.cache
+C:\Users\wietvergiet\source\repos\overlayv2\overlayv2\obj\x64\Release\overlayv2.csproj.CoreCompileInputs.cache
+C:\Users\wietvergiet\source\repos\overlayv2\overlayv2\obj\x64\Release\overlay.Properties.Resources.resources
+C:\Users\wietvergiet\source\repos\overlayv2\overlayv2\bin\x64\Release\overlay.exe.config
+C:\Users\wietvergiet\source\repos\overlayv2\overlayv2\bin\x64\Release\overlay.exe
+C:\Users\wietvergiet\source\repos\overlayv2\overlayv2\bin\x64\Release\overlay.pdb
+C:\Users\wietvergiet\source\repos\overlayv2\overlayv2\obj\x64\Release\overlay.exe
+C:\Users\wietvergiet\source\repos\overlayv2\overlayv2\obj\x64\Release\overlay.pdb
+C:\Users\wietvergiet\source\repos\overlayv2\overlayv2\obj\x64\Release\overlayv2.csprojAssemblyReference.cache
