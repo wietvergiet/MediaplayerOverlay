@@ -11,6 +11,6 @@ The goal is to also support reading directly from your favourite media player.
 Configuration is done via the config file that is created on first run, or by directly changing the default configuration in code. The edited default config will then be written  upon first run.
 The configuration file is located at <code>C:\Users\USERNAME\Documents\playingoverlay.cfg</code>
 
-### Preview
+#### Preview
 
 ![MediaplayerOverlay](https://user-images.githubusercontent.com/9129712/93131309-23a90300-f6d4-11ea-8027-8f46c6c9f05a.png)
