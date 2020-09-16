@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\MediaplayerOverlay"
+    "\\MediaplayerOverlay",
+    "\\MediaplayerOverlay\\Properties"
   ],
-  "SelectedNode": "\\MediaplayerOverlay\\Properties",
+  "SelectedNode": "\\MediaplayerOverlay.sln",
   "PreviewInSolutionExplorer": false
 }

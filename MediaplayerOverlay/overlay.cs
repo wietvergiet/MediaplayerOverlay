@@ -30,37 +30,34 @@ namespace MediaplayerOverlay
 
         private void overlay_Load(object sender, EventArgs e)
         {
-            string path1 = Path.GetFullPath(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)) + "\\playingoverlay.cfg";
-           
-            if (!File.Exists(path1))
+            string windowLocation = Path.GetFullPath(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)) + "\\playingoverlay.cfg";
+            if (!File.Exists(windowLocation))
             {
                 // Create a file to write to with basic settings on first run. 
-                string createText = "500|500";
-                File.WriteAllText(path1, createText, Encoding.UTF8);
+                string location = "500|500";
+                File.WriteAllText(windowLocation, location, Encoding.UTF8);
             }
             else
-                if (File.Exists(path1))
+                if (File.Exists(windowLocation))
                 {
                 // Read config and parse it to something usable
-                    string rawlocation = File.ReadAllText(path1);
+                    string rawlocation = File.ReadAllText(windowLocation);
                     string[] tokens = rawlocation.Split('|');
                     int[] location = Array.ConvertAll<string, int>(tokens, int.Parse);
                 // Set window location to parsed data. 
                     this.Left = location[0];
                     this.Top = location[1];
                 }
-
         }
-
 
         private void refreshTimer_Tick(object sender, EventArgs e)
         {
             // Getting path to now playing data. 
-            string path = Path.GetFullPath(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)) + "\\np.txt";
-            if (File.Exists(path))
+            string nowPlaying = Path.GetFullPath(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)) + "\\np.txt";
+            if (File.Exists(nowPlaying))
             {
                 // Read file
-                string rawplaying = File.ReadAllText(path);
+                string rawplaying = File.ReadAllText(nowPlaying);
                 // Split result
                 string[] delimiters = { "|" };
                 string[] playing = rawplaying.Split(delimiters, StringSplitOptions.None);
@@ -70,7 +67,4 @@ namespace MediaplayerOverlay
             }
         }
     }
-
-  
-    
 }
