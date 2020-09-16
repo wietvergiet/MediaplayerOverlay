@@ -9,7 +9,7 @@ Currently the application only supports reading now playing info from a file. By
 The goal is to also support reading directly from your favourite media player.
 
 Configuration is done via the config file that is created on first run, or by directly changing the default configuration in code. The edited default config will then be written  upon first run.
-The configuration file is located at `%userprofile%\Documents\overlay.cfg`
+The configuration file is located at `%userprofile%\Documents\playingoverlay.cfg`
 
 #### Preview
 
