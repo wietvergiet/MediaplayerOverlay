@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -26,10 +27,24 @@ namespace MediaplayerOverlay
             SetWindowLong(this.Handle, GWL_EXSTYLE,
             (IntPtr)(GetWindowLong(this.Handle, GWL_EXSTYLE) ^ WS_EX_LAYERED ^ WS_EX_TRANSPARENT));
             SetLayeredWindowAttributes(this.Handle, 0, 223, LWA_ALPHA);
+            TrayIconContext();
         }
 
-        private void overlay_Load(object sender, EventArgs e)
+        private void TrayIconContext()
         {
+            trayIcon.ContextMenuStrip = new System.Windows.Forms.ContextMenuStrip();
+            trayIcon.ContextMenuStrip.Items.Add("Exit", null, MenuExit_Click);
+        }
+
+        void MenuExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+
+        private void Overlay_Load(object sender, EventArgs e)
+        {
+            trayIcon.Icon = new Icon(SystemIcons.Application, 40, 40);
             string windowLocation = Path.GetFullPath(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)) + "\\playingoverlay.cfg";
             if (!File.Exists(windowLocation))
             {
@@ -50,7 +65,7 @@ namespace MediaplayerOverlay
                 }
         }
 
-        private void refreshTimer_Tick(object sender, EventArgs e)
+        private void RefreshTimer_Tick(object sender, EventArgs e)
         {
             // Getting path to now playing data. 
             string nowPlaying = Path.GetFullPath(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)) + "\\np.txt";
